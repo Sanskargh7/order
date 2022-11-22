@@ -30,7 +30,7 @@ header ul{
     font-weight:200;
     justify-content: center;
     list-style-type: none;
-    border-bottom:0.1rem solid white;
+    /* border-bottom:0.1rem solid white; */
 }
 header li{
     margin:0px 40px;
@@ -430,3 +430,22 @@ header ul a{
     border-radius:7px;
     padding:5px;
 }
+.order {
+    padding:8px;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 10%;
+    background: #56CCF2;
+    align-self: flex-end;
+}
+
+.order-span {
+    width: 100%;
+    background: #56CCF2;
+    margin: auto;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+} 

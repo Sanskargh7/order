@@ -159,3 +159,9 @@ function showNotification(message, iserror){
         notification.remove();
     },2500)
 }
+function placeOrder(){
+    axios.get('http://localhost:3000/orders')
+    .then((res)=>{
+        showNotification(`Your Order is SuccessFully Placed Order Id is ${res.data.orderId}`)
+    }).catch(err=>console.log(err))
+}
